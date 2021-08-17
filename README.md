@@ -1,4 +1,4 @@
-# AmlikeTz #AM-LINUX
+#AM-LINUX
 
 AM-LINUX is a tool designed to simpl MODFYING YOUR TERMUX TERMINAL.
 
