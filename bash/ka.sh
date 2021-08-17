@@ -22,7 +22,7 @@ msf="6.0.27"
 mob=$(uname -o)
 arc=$(dpkg --print-architecture)
 str=$(du -hs)
-krn=$(uname -s)
+krn=eval $(base64 -d <<<"Z2V0cHJvcCByby50cmFuc3Npb24uZGV2aWNlLm5hbWUK")
 ip=$(curl -s https://api.ipify.org)
 
 
@@ -95,7 +95,7 @@ cat << "EOF"
 @@@@@@@@@@%*=:.  .::::::::=+*%@@@@@@@@@@
 @@@@@@@@@@@@@@@Amlike-Tz@@@@@@@@@@@@@@@@
 EOF
-echo -e "$blue OS=$grn $mob $ylo IP=$red $ip $cyan K=$pink $krn"
+echo -e "$blue OS=$grn $mob $ylo IP=$red $ip $cyan Device=$pink $krn"
 echo -e "$blued"
 
 cd 
