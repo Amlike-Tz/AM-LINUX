@@ -70,7 +70,7 @@ cd /data/data/com.termux/files/home/storage/shared
 
 play-audio /sdcard/usifute.m4a.mp3
 
-sleep 2
+sleep 0.5
 
 clear
 
