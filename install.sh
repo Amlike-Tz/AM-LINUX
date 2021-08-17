@@ -56,8 +56,7 @@ sleep 1
 
 cd $SCHOME
 
-#rm -rf AM-LINUX
-
+rm -rf AM-LINUX
 
 clear
 sleep 1
